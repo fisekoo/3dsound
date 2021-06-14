@@ -19,7 +19,7 @@ public class soundManager : MonoBehaviour
     private void Start()
     {
         // Find character with tag "Player"
-        character = GameObject.FindGameObjectWithTag("Player").GetComponent<karakter>();
+        character = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
     
     // You can use Update or FixedUpdate too. But in my case, i used LateUpdate
