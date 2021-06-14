@@ -13,8 +13,8 @@ public class soundManager : MonoBehaviour
     [SerializeField]
     private Transform particularAreaPos;
     
-    public float maxDistance = 5f;
     // You can change max distance if you want.
+    public float maxDistance = 5f;
     
     // You can use Update or FixedUpdate too. But in my case, i used LateUpdate
     private void LateUpdate()
