@@ -16,12 +16,6 @@ public class soundManager : MonoBehaviour
     public float maxDistance = 5f;
     // You can change max distance if you want.
     
-    private void Start()
-    {
-        // Find character with tag "Player"
-        character = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-    }
-    
     // You can use Update or FixedUpdate too. But in my case, i used LateUpdate
     private void LateUpdate()
     {
