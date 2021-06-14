@@ -29,7 +29,7 @@ public class soundManager : MonoBehaviour
     public void sound3D(float maxDistance, Transform characterPos, Transform sourcePos, AudioSource audio)
     {
         // Distance between character and audioSource.
-        float distance = Vector2.Distance(characterPos.position, sourcePos.position);
+        float distance = Vector2.Distance(characterPos.position, sourcePos.position); // use Vector3 for 3D games.
         
         // for normalizing distance.
         float temp = distance / maxDistance;
