@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class soundmanager : MonoBehaviour
+public class soundManager : MonoBehaviour
 {
     [SerializeField]
     private AudioSource carNoise;
